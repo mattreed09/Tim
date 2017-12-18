@@ -1,7 +1,7 @@
 '''
 Created on 21 Nov 2017
 
-@author: matt
+@author: matt reed
 
 Purpose of the code is to move a vehicle depending on whether a set of cameras can see a face. The FacialRecognition function
 runs to check if any faces are present.If they are, it prompts the Movement method 'Stop' to run in a separate thread, which
